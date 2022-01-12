@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    margin: 30px;
+}
+
+body {
+    font: Arial;
+    color: black;
+}
+
+.column {
+    padding: 0px 2px;
+}
+
+.column img {
+    max-width: 4000px;
+    max-height: 223px;
+    filter: grayscale(100%);
+    opacity: 0.9;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    opacity: 0.9;
+}
